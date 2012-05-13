@@ -20,7 +20,7 @@ Hook.io IRC is a client wrapper around [node-irc](http://github.com/martynsmith/
 
 **irc::connect** - Connects irc client to server
 
-**irc::message** *{dest, msg}* - Sends an IRC message to the provided nick/channel.
+**irc::message** *{to, msg}* - Sends an IRC message to the provided nick/channel.
 
 **irc::join** *channel* - Joins the channel specified.
 
